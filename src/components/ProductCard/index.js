@@ -69,7 +69,7 @@ export default class ProductCard extends Component {
           />
           <CardMedia
             image={
-              `${API_ROOT}public/assets/images/` + this.props.card.product_image
+              `${API_ROOT}/images/` + this.props.card.product_image
             }
             title={this.props.card.product_name}
             style={imageStyle}

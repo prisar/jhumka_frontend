@@ -109,7 +109,7 @@ export default class Product extends Component {
           <CardContent>
             <div style={productImageStyle}>
               <img
-                src={`${API_ROOT}public/assets/images/${
+                src={`${API_ROOT}/images/${
                   this.state.details.product_image
                 }`}
                 alt={this.state.details.product_name}

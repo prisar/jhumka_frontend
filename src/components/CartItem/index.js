@@ -45,7 +45,7 @@ export default class CartItem extends Component {
           />
           <CardMedia
             image={
-              `${API_ROOT}public/assets/images/` + this.props.item.product_image
+              `${API_ROOT}/images/` + this.props.item.product_image
             }
             title={this.props.item.product_name}
             style={imageStyle}
